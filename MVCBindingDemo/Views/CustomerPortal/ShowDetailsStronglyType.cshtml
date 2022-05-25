@@ -1,0 +1,33 @@
+﻿@model MVCBindingDemo.Models.Customer
+
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowDetailsStronglyType</title>
+</head>
+<body>
+    <div>
+    </div>
+    <h1>Welcome user</h1>
+    <h2>@ViewBag.UserCode</h2>
+    <h2>@ViewBag.UserName</h2>
+    <div>
+        <table border="1">
+
+            <tr><th>PARTICULAR</th><th>INFO</th></tr>
+            <tr><td>CustomerCode  :</td><th>@Model.CustomerCode</th></tr>
+            <tr><td>CustomerName  :</td><th>@Model.CustomerName</th></tr>
+            <tr><td>CustomerDOJ   :</td><th>@Model.CustomerDOJ</th></tr>
+            <tr><td>CustomerStatus:</td><th>@Model.CustomerStatus</th></tr>
+            <tr><td>CustomerType  :</td><th>@Model.CustomerType</th></tr>
+        </table>
+    </div>
+</body>
+</html>

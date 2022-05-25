@@ -53,5 +53,16 @@ namespace MVCBindingDemo.Controllers
             return View();
         }
 
+        [HttpPost]
+        public ActionResult ShowDetailsStronglyType(Customer customer)
+        {
+            ViewBag.UserCode = Request.QueryString["code"];
+            ViewBag.UserName = Request.QueryString["name"];
+
+            // in strongly type at the time of creating view we create empty template with model customer 
+            return View(customer);
+        }
+
+
     }
 }
