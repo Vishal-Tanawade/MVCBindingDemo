@@ -167,6 +167,7 @@
     <Content Include="Views\CustomerPortal\Index.cshtml" />
     <Content Include="Views\CustomerPortal\CustomerRegistration.cshtml" />
     <Content Include="Views\CustomerPortal\ShowDetails.cshtml" />
+    <Content Include="Views\CustomerPortal\ShowDetailsWithClass.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

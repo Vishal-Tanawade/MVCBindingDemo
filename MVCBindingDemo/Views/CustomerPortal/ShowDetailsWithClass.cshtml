@@ -8,17 +8,16 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>ShowDetails</title>
+    <title>ShowDetailsWithClass</title>
 </head>
 <body>
     <h1>Welcome user</h1>
     <h2>@ViewBag.UserCode</h2>
     <h2>@ViewBag.UserName</h2>
-
     <div>
         <table border="1">
             <tr><th>PARTICULAR</th><th>INFO</th></tr>
-            <tr><td>CustomerCode  :</td><th>@ViewBag.CustomerCode</th></tr>
+            <tr><td>CustomerCode  :</td><th>@ViewBag.CustomerCode</th></tr> @*this name should be same as name of html element in CustomerRegistration.cshtml file*@
             <tr><td>CustomerName  :</td><th>@ViewBag.CustomerName</th></tr>
             <tr><td>CustomerDOJ   :</td><th>@ViewBag.CustomerDOJ</th></tr>
             <tr><td>CustomerStatus:</td><th>@ViewBag.CustomerStatus</th></tr>
