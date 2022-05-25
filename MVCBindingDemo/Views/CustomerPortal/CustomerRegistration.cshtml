@@ -1,0 +1,37 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CustomerRegistration</title>
+</head>
+<body>
+    <div>
+        <h1>CUSTOMER REGISTRATION PAGE</h1>
+        <hr />
+    </div>
+
+    <div>
+
+      
+        <form action="ShowDetails" method="post">
+            Customer Code : <input type="text" id="txtCode" name="CustomerCode" placeholder="Enter customer code" />
+            <br />
+            Customer Name : <input type="text" id="txtName" name="CustomerName" placeholder="Enter customer Name" />
+            <br />
+            Customer DOJ : <input type="date" id="txtDate" name="CustomerDOJ" placeholder="Enter customer DOJ" />
+            <br />
+            Customer Status : <input type="checkbox" id="chkStatus" name="CustomerStatus" value="Status" />
+            <br />
+            Customer Type : <input type="text" id="txtType" name="CustomerType" placeholder="Enter customer Type" />
+            <br />
+            <input type="submit" value="Register Me" />
+        </form>
+    </div>
+</body>
+</html>

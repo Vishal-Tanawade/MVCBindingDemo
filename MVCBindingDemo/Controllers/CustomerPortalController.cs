@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MVCBindingDemo.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,5 +14,21 @@ namespace MVCBindingDemo.Controllers
         {
             return View();
         }
+
+   [HttpGet]
+        public ActionResult CustomerRegistration()
+        {
+
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult ShowDetails()
+        {
+
+            return View();
+        }
+
+
     }
 }
