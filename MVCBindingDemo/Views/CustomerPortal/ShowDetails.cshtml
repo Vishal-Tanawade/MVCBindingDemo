@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowDetails</title>
+</head>
+<body>
+    <h1>Welcome user</h1>
+  
+    <div>
+        <table border="1">
+            <tr><th>PARTICULAR</th><th>INFO</th></tr>
+            <tr><td>CustomerCode  :</td><th>@ViewBag.CustomerCode</th></tr>
+            <tr><td>CustomerName  :</td><th>@ViewBag.CustomerName</th></tr>
+            <tr><td>CustomerDOJ   :</td><th>@ViewBag.CustomerDOJ</th></tr>
+            <tr><td>CustomerStatus:</td><th>@ViewBag.CustomerStatus</th></tr>
+            <tr><td>CustomerType  :</td><th>@ViewBag.CustomerType</th></tr>
+        </table>
+    </div>
+</body>
+</html>

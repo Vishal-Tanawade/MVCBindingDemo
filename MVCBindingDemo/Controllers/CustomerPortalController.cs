@@ -25,6 +25,12 @@ namespace MVCBindingDemo.Controllers
         [HttpPost]
         public ActionResult ShowDetails()
         {
+            ViewBag.CustomerCode = Request.Form["CustomerCode"];
+            ViewBag.CustomerName = Request.Form["CustomerName"];
+            ViewBag.CustomerDOJ = Request.Form["CustomerDOJ"];
+            ViewBag.CustomerStatus = Request.Form["CustomerStatus"];
+            ViewBag.CustomerType = Request.Form["CustomerType"];
+
 
             return View();
         }
